@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.content {
+  width: 500px;
+  position: relative;
+  padding-bottom: 300px;
+  margin: 100px auto;
+}
+.circleOne {
+  width: 20%;
+  height: 34%;
+  border-radius: 50%;
+  background: #f30101;
+  position: absolute;
+}
+.circletwo {
+  width: 20%;
+  height: 34%;
+  border-radius: 50%;
+  background-color: #f30101;
+  position: absolute;
+  left: 200px;
+}
+.circleThree {
+  width: 20%;
+  height: 34%;
+  border-radius: 50%;
+  background-color: #f30101;
+  position: absolute;
+  top: 200px;
+}
+.circleFour {
+  width: 20%;
+  height: 34%;
+  border-radius: 50%;
+  background-color: #f30101;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.bigSquare {
+  width: 40%;
+  height: 67%;
+  position: absolute;
+  background-color: #0095f9;
+  left: 50px;
+  top: 50px;
+}
+.smallSquare {
+  width: 20%;
+  height: 33%;
+  position: absolute;
+  background-color: #e5ce00;
+  border-radius: 15px;
+  left: 100px;
+  top: 100px;
+}
+.circleOne:hover {
+  z-index: 1;
+  background-color: rgb(0, 60, 255);
+}
+.circletwo:hover {
+  z-index: 1;
+  background-color: #2bff00;
+}
+.circleThree:hover {
+  z-index: 1;
+  background-color: #ffa600;
+}
+.circleFour:hover {
+  z-index: 1;
+  background-color: rgb(225, 0, 255);
+}
+.bigSquare:hover {
+  z-index: 1;
+  background-color: rgb(87, 3, 0);
+}
